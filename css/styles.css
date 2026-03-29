@@ -24,7 +24,7 @@ img {
   max-width: 100%;
 }
 .container {
-  width: 1158px;
+  max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -68,7 +68,7 @@ img {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
-.header .container {
+.header-container {
   display: flex;
   align-items: center;
 }
@@ -199,7 +199,7 @@ img {
 
 .team-card {
   text-align: center;
-  padding: 32px 0;
+  padding: 32px 16px;
 }
 .team-name {
   font-weight: 500;
